@@ -53,6 +53,17 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card button {
+    flex: 0 0 48%; /* Two buttons per row */
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    box-sizing: border-box;
   }
 
   .logo {
